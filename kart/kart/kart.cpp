@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <math.h> 
 
-#include <C:\Users\Dragos\Desktop\SMG\kart\include\glad\glad.h> 
+#include <glad\glad.h> 
 #include <glfw3.h>
 
 #define GLM_FORCE_CTOR_INIT 
@@ -13,9 +13,9 @@
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
 
-#include <C:\Users\Dragos\Desktop\SMG\_external\assimp-master\include\assimp\Importer.hpp>
-#include <C:\Users\Dragos\Desktop\SMG\_external\assimp-master\include\assimp\scene.h>
-#include <C:\Users\Dragos\Desktop\SMG\_external\assimp-master\include\assimp\postprocess.h>
+#include <assimp\Importer.hpp>
+#include <assimp\scene.h>
+#include <assimp\postprocess.h>
 
 #include <iostream>
 #include <fstream>
