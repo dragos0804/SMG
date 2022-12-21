@@ -770,7 +770,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Prejmer track in metaverse", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -917,16 +917,16 @@ int main()
 
     // load textures
     // -------------
-    unsigned int cubeTexture = loadTexture("C:/Users/Dragos/Desktop/SMG/kart/resorces/textures/right.jpg");
+    unsigned int cubeTexture = loadTexture("D:/SMG/kart/resorces/textures/right.jpg");
 
     std::vector<std::string> faces
     {
-        "C:/Users/Dragos/Desktop/SMG/kart/resorces/textures/right.jpg",
-        "C:/Users/Dragos/Desktop/SMG/kart/resorces/textures/left.jpg",
-        "C:/Users/Dragos/Desktop/SMG/kart/resorces/textures/top.jpg",
-        "C:/Users/Dragos/Desktop/SMG/kart/resorces/textures/bottom.jpg",
-        "C:/Users/Dragos/Desktop/SMG/kart/resorces/textures/front.jpg",
-        "C:/Users/Dragos/Desktop/SMG/kart/resorces/textures/back.jpg"
+        "D:/SMG/kart/resorces/textures/right.jpg",
+        "D:/SMG/kart/resorces/textures/left.jpg",
+        "D:/SMG/kart/resorces/textures/top.jpg",
+        "D:/SMG/kart/resorces/textures/bottom.jpg",
+        "D:/SMG/kart/resorces/textures/front.jpg",
+        "D:/SMG/kart/resorces/textures/back.jpg"
     };
     unsigned int cubemapTexture = loadCubemap(faces);
 
