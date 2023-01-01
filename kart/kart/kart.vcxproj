@@ -71,20 +71,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Dragos\Desktop\SMG\_external\glew-2.1.0\include;C:\Users\Dragos\Desktop\SMG\_external\glm-stable\glm-stable\glm;C:\Users\Dragos\Desktop\SMG\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\include\GLFW;C:\Users\Dragos\Desktop\SMG\_external\stb-master;C:\Users\Dragos\Desktop\SMG\_external\assimp-master\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Dragos\Desktop\SMG\_external\glew-2.1.0\lib\Release\Win32;C:\Users\Dragos\Desktop\SMG\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\_external\glew-2.1.0\include;..\..\_external\glm-stable\glm-stable\glm;..\..\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\include\GLFW;..\..\_external\stb-master;..\..\_external\assimp-master\include;..\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_external\glew-2.1.0\lib\Release\Win32;..\..\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Users\Dragos\Desktop\SMG\_external\glew-2.1.0\include;C:\Users\Dragos\Desktop\SMG\_external\glm-stable\glm-stable\glm;C:\Users\Dragos\Desktop\SMG\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\include\GLFW;C:\Users\Dragos\Desktop\SMG\_external\stb-master;C:\Users\Dragos\Desktop\SMG\_external\assimp-master\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Dragos\Desktop\SMG\_external\glew-2.1.0\lib\Release\Win32;C:\Users\Dragos\Desktop\SMG\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\_external\glew-2.1.0\include;..\..\_external\glm-stable\glm-stable\glm;..\..\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\include\GLFW;..\..\_external\stb-master;..\..\_external\assimp-master\include;..\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_external\glew-2.1.0\lib\Release\Win32;..\..\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Dragos\Desktop\SMG\_external\glew-2.1.0\include;C:\Users\Dragos\Desktop\SMG\_external\glm-stable\glm-stable\glm;C:\Users\Dragos\Desktop\SMG\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\include\GLFW;C:\Users\Dragos\Desktop\SMG\_external\stb-master;C:\Users\Dragos\Desktop\SMG\_external\assimp-master\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Dragos\Desktop\SMG\_external\glew-2.1.0\lib\Release\Win32;C:\Users\Dragos\Desktop\SMG\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\_external\glew-2.1.0\include;..\..\_external\glm-stable\glm-stable\glm;..\..\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\include\GLFW;..\..\_external\stb-master;..\..\_external\assimp-master\include;..\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_external\glew-2.1.0\lib\Release\Win32;..\..\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\Dragos\Desktop\SMG\_external\glew-2.1.0\include;C:\Users\Dragos\Desktop\SMG\_external\glm-stable\glm-stable\glm;C:\Users\Dragos\Desktop\SMG\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\include\GLFW;C:\Users\Dragos\Desktop\SMG\_external\stb-master;C:\Users\Dragos\Desktop\SMG\_external\assimp-master\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Dragos\Desktop\SMG\_external\glew-2.1.0\lib\Release\Win32;C:\Users\Dragos\Desktop\SMG\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\_external\glew-2.1.0\include;..\..\_external\glm-stable\glm-stable\glm;..\..\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\include\GLFW;..\..\_external\stb-master;..\..\_external\assimp-master\include;..\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_external\glew-2.1.0\lib\Release\Win32;..\..\_external\glfw-3.3.4.bin.WIN32\glfw-3.3.4.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -92,6 +92,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -106,6 +107,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -120,6 +122,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,6 +137,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,6 +149,8 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="kart.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Shader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="6.1.cubemaps.fs" />
@@ -155,6 +161,10 @@
     <None Include="ShadowMapping.vs" />
     <None Include="ShadowMappingDepth.fs" />
     <None Include="ShadowMappingDepth.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

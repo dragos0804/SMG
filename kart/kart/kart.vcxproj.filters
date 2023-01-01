@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Vertex Shaders">
+      <UniqueIdentifier>{a2495305-3127-4ac8-a636-b49c58c59481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fragment Shaders">
+      <UniqueIdentifier>{3fac8610-5e2f-4fce-abe0-6f21898fa945}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="kart.cpp">
@@ -21,31 +27,45 @@
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ShadowMappingDepth.vs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="ShadowMappingDepth.fs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="ShadowMapping.vs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="ShadowMapping.fs">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="6.1.cubemaps.vs">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="6.1.cubemaps.fs">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Vertex Shaders</Filter>
     </None>
     <None Include="6.1.skybox.vs">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="ShadowMapping.vs">
+      <Filter>Source Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="ShadowMappingDepth.vs">
+      <Filter>Source Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="ShadowMapping.fs">
+      <Filter>Source Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="ShadowMappingDepth.fs">
+      <Filter>Source Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="6.1.cubemaps.fs">
+      <Filter>Source Files\Fragment Shaders</Filter>
     </None>
     <None Include="6.1.skybox.fs">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Fragment Shaders</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
