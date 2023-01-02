@@ -4,6 +4,7 @@
 #include "Mesh.h"
 #include "Shader.h"
 #include "Camera.h"
+#include "Model.h"
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -52,7 +53,7 @@ bool firstMouse = true;
 // timing
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
-unsigned int TextureFromFile(const char* path, const std::string& directory, bool gamma = false);
+
 #define MAX_BONE_INFLUENCE 4
 
 int main()
